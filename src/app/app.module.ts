@@ -7,7 +7,7 @@ import { BlogComponent } from './blog/blog.component';
 import { SubscibeComponent } from './subscribe/subscibe.component';
 import { ConnectComponent } from './connect/connect.component';
 import { DudeCalculateComponent } from './dude_calculate/dude-calculate.component';
-import { FooterComponent } from './footer/footer/footer.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [

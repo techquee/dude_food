@@ -1,0 +1,42 @@
+<form class="login-form">
+<mat-card>
+  <h1>Exercise DUDE_CALCULATE</h1>
+  <ul>
+      <li *ngFor="let d of apps;">
+         <h1>{{d.exercises.nf_calories}}</h1>
+         {{d.exercises.name}}
+         <img src={{d.exercises.photo}}/>
+      </li>
+   </ul>
+  <br/>
+    <mat-form-field>
+        <input  matInput  placeholder="ran 3 miles" [(ngModel)]="query"  name="query"  required>
+    </mat-form-field>
+        <br/>
+        <mat-form-field>
+        <input  matInput  placeholder="gender" [(ngModel)]="gender"  name="gender" required>
+        </mat-form-field>
+        <mat-form-field>
+          <input  matInput  placeholder="weight_kg" [(ngModel)]="weight_kg"  name="weight_kg" required>
+          </mat-form-field>
+          <mat-form-field>
+            <input  matInput  placeholder="height_cm" [(ngModel)]="height_cm"  name="height_cm" required>
+            </mat-form-field>
+            <mat-form-field>
+              <input  matInput  placeholder="age" [(ngModel)]="age"  name="age" required>
+              </mat-form-field>
+
+            
+        <br/>
+        <mat-card-actions>
+          <button mat-raised-button (click)="login(query, gender, weight_kg, height_cm, age)" color="danger">Calculate</button>
+          <ul *ngIf="apps">
+            <li *ngFor="let d of apps">
+               {{d}}
+            </li>
+         </ul>
+        </mat-card-actions>
+        <br/>
+</mat-card>
+    
+  </form>

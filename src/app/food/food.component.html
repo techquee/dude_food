@@ -1,0 +1,23 @@
+<form class="login-form">
+    <ul *ngIf="data">
+        <li *ngFor="let a of data;">
+          
+        </li>
+     </ul>
+  <mat-card>
+      
+    <h1>Food DUDE_CALCULATE</h1>
+    <br/>
+      <mat-form-field>
+          <input  matInput  placeholder="for breakfast i ate 2 eggs, corn flakes, and french toast" [(ngModel)]="query"  name="query"  required>
+      </mat-form-field>
+          <br/>
+  
+          <mat-card-actions>
+            <button mat-raised-button (click)="calculate(query)" color="danger">Calculate</button>
+           
+          </mat-card-actions>
+          <br/>
+  </mat-card>
+      
+    </form>

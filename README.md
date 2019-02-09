@@ -6,3 +6,10 @@
 . This serves as a very helpful tool to calculate the nutrients in your body as per required by your body to function well.</p>
 <h5>Healthy is being other kind to be Happy.</h5>
 <h4>Also, you can find some tips to improve your health and functioning of body mechanism.</h4>
+
+
+
+![Image](https://raw.githubusercontent.com/techquee/dude_food/master/assests/image%20(1).png)
+
+![Image](https://raw.githubusercontent.com/techquee/dude_food/master/assests/image%20(3).png)
+
